@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Barbershop-item</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="inner-page">
+  <header class="main-header">
+    <nav class="main-navigation container">
+      <a class="main-header-logo" href="index.html">
+        <img src="../img/logo.svg" alt="Логотип барбершопа Бородинский" width="111" height="24">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="../pages/barbershop-price.html">Прайс-лист</a></li>
+        <li><a href="../pages/catalog.html"><span class="current">Магазин</span></a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li class="user-login">
+          <a class="login-link" href="login.html">Вход</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Набор для путешествий «Baxter of California»</h1>
+    <ul class="breadcrumbs">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="catalog.html">Магазин</a></li>
+      <li><a href="#">Средства для ухода</a></li>
+      <li class="breadcrumbs-current">набор для путешествий «Baxter of California»</li>
+    </ul>
+    <div class="catalog-columns">
+      <section class="product-photos">
+        <h2 class="visually-hidden">Изображения товара</h2>
+        <img class="product-photo-full" src="../img/Big-photo.jpg" width="460" height="498" alt="Фото всего набора">
+        <ul class="product-photo-preview">
+          <li><img src="../img/small-1.jpg" alt="Фото в анфас"></li>
+          <li><img src="../img/small-2.jpg" alt="Фото в профиль"></li>
+          <li><img src="../img/small-3.jpg" alt="Фото отдельной части"></li>
+        </ul>
+      </section>
+      <section class="product-info">
+        <h2 class="visually-hidden">Описание товара</h2>
+        <div class="wrap-description">
+          <P class="product-availability">есть в наличии</P>
+          <P class="product-article">Артикул: dexter-ae</P>
+        </div>
+        <P class="product-text">Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной
+          кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или
+          отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор
+          также может стать отличным подарком.</P>
+        <p class="product-price">
+          <b>2 900 ₽</b>
+          <a href="#" class="button">Купить</a>
+        </p>
+        <h3>В набор входят:</h3>
+        <ul>
+          <li>Средство для умывания (50 мл)</li>
+          <li>Увлажняющий крем (50 мл)</li>
+          <li>Крем для бритья (50 мл)</li>
+          <li>Крем после бритья, шампунь (50 мл)</li>
+          <li>Удобная кожаная косметичка</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p class="footer-contacts">
+        Барбершоп «Бородинский»<br />
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br />
+        <a class="Hfu-js" href="map.html">Как нас найти?</a><br />
+        Телефон: +7 (812) 666-02-66
+      </p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul>
+          <li>
+            <a class="social-button" href="#" aria-label="Вконтакте">
+              <img src="../img/vk.svg" width="27" height="15">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#" aria-label="Фейсбук">
+              <img src="../img/facebook.svg" width="20" height="20">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#" aria-label="Инстраграм">
+              <img src="../img/instagram.svg" width="20" height="20">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано:</b>
+        <a class="button" href="http://htmlacade.ru">HTML Academy</a>
+      </p>
+    </div>
+  </footer>
+
+  <section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <P class="modal-login_text">Введите свой логин и пароль</P>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <input aria-label="Логин" class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин"
+          required>
+      </p>
+      <p>
+        <input aria-label="Пароль" class="login-icon-password" id="user-password" type="password" name="password"
+          placeholder="Пароль" required>
+      </p>
+      <p class="login-password-info">
+        <label class="login-checkbox" for="lpi-checkbox">запомните меня
+          <input class="visually-hidden" id="lpi-checkbox" type="checkbox" name="remember" checked>
+          <span class="checkbox-indicator"></span>
+        </label>
+        <a class="restore" href="#">Я забыл пароль!</a>
+      </p>
+      <button class="button" type="submit">Войти</button>
+    </form>
+    <button class="modal-close" type="button" aria-label="Закрыть"></button>
+  </section>
+
+  <section class="modal modal-map">
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.1998143444616!2d20.950442215891588!3d52.20341626739473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471933554fcb36a5%3A0x5d726b966baa6cc3!2sDrawska+10B%2C+02-001+Warszawa!5e0!3m2!1sru!2spl!4v1558210434623!5m2!1sru!2spl"
+      aria-label="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург" width="780" height="580"
+      frameborder="0" style="border:8px solid white" allowfullscreen></iframe>
+    <button class="modal-close map-modal-close" type="button" aria-label="закрыть "></button>
+  </section>
+
+  <script async src="../js/modal-login.js"></script>
+  <script async src="../js/modal-map.js"></script>
+</body>
+
+</html>

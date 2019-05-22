@@ -1,0 +1,447 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-col",
+				"border-collapse\tproperty"
+			],
+			[
+				"map",
+				"map-big.jpg\tw:960 h:559"
+			],
+			[
+				"id-",
+				"id-white"
+			],
+			[
+				"app",
+				"app/"
+			],
+			[
+				"filter",
+				"filter-murrays"
+			],
+			[
+				"19",
+				"19/8"
+			],
+			[
+				"backgroundc",
+				"background-color\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"ml",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"bcr",
+				"background-repeat"
+			],
+			[
+				"bl",
+				"border-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"list",
+				"list\tlist-style-type"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bca",
+				"background-color"
+			],
+			[
+				"bcc",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"mr",
+				"margin-right"
+			],
+			[
+				"Pad",
+				"padding-top"
+			],
+			[
+				"bb",
+				"border-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"liverelo",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"liverel",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"colorcode",
+				"Toggle Colorcode on this view"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Emmet: Merge Lines"
+			],
+			[
+				"EMMET",
+				"Emmet: Expand Abbreviation"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Github/Rainspistols/device/index.html",
+		"/D/Github/Rainspistols/Barder shop/app/css/style.css",
+		"/D/Github/Rainspistols/Barder shop/app/css/normalize.css",
+		"/D/Github/Rainspistols/Barder shop/app/pages/barbershop-price.html",
+		"/D/Github/Rainspistols/Barder shop/app/pages/catalog.html",
+		"/D/Github/Rainspistols/Barder shop/app/pages/barbershop-item.html",
+		"/D/Github/Rainspistols/Barder shop/index.html",
+		"/D/Github/Rainspistols/device/app/pages/catalog.html",
+		"/D/Github/Rainspistols/Barder shop/css/style.css",
+		"/D/Github/Rainspistols/device/js/catalog.html",
+		"/D/Github/Rainspistols/device/js/index.html",
+		"/D/Github/Rainspistols/Barder shop/js/barbershop-price.html",
+		"/D/Github/Rainspistols/Barder shop/js/barbershop-item.html",
+		"/D/Github/Rainspistols/Barder shop/js/catalog.html",
+		"/D/Github/Rainspistols/Barder shop/js/index.html",
+		"/D/Users/Rainspistols/Desktop/adaptive/template_bootstrap/css/fonts.css",
+		"/D/Users/Rainspistols/Desktop/adaptive/template_bootstrap/css/media.css",
+		"/D/Users/Rainspistols/Desktop/adaptive/template_bootstrap/css/main.css",
+		"/D/Users/Rainspistols/Desktop/adaptive/template_bootstrap/js/common.js",
+		"/D/Users/Rainspistols/Desktop/adaptive/template_bootstrap/index.html",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/D/Users/Rainspistols/Desktop/adaptive/index.html.txt",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_swapping.sublime-settings",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/C/Users/Rainspistols/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Users/Rainspistols/Desktop/fobus/index.html..txt",
+		"/D/Users/Rainspistols/Desktop/hello.html"
+	],
+	"find":
+	{
+		"height": 40.8
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Записат",
+			"Записаться",
+			"pfgbcfnmcz ",
+			"href",
+			"сорти",
+			"фильтр",
+			"form",
+			"деловые",
+			"li",
+			"button",
+			"img",
+			"visu",
+			"visua",
+			"квадр",
+			"map",
+			"sub",
+			"form",
+			"social",
+			"filter-button",
+			"время",
+			"\t\t\t\t<!--",
+			"контак",
+			"Войти",
+			"ввойти",
+			"img",
+			"вход",
+			"img",
+			"}\n",
+			"!",
+			"+e",
+			"cntrl+e"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"!"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

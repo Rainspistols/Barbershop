@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Барбершоп "Бородинский"</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet" />
+  <link rel="stylesheet" href="app/css/normalize.css" />
+  <link rel="stylesheet" href="app/css/style.css" />
+</head>
+
+<body class="index-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <div class="main-navigation-wrapper">
+        <div class="container">
+          <ul class="site-navigation">
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="app/pages/barbershop-price.html">Прайс-лист</a></li>
+            <li><a href="app/pages/catalog.html">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <ul class="user-navigation">
+            <li class="user-login">
+              <a class="login-link" href="login.html">Вход</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <a class="main-header-logo" href="index.html">
+        <img src="app/img/index-logo.svg" alt="Логотип барбершопа Бородинский" />
+      </a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="visually-hidden">Барбершоп Бородинский</h1>
+    <section class="features">
+      <h2 class="visually-hidden">Преимущества</h2>
+      <ul class="features-list">
+        <li class="feature-item">
+          <h3>БЫСТРО</h3>
+          <p>
+            МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ —
+            СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+          </p>
+        </li>
+        <li class="feature-item">
+          <h3>КРУТО</h3>
+          <p>
+            ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ
+            ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+          </p>
+        </li>
+        <li class="feature-item">
+          <h3>ДОРОГО</h3>
+          <p>
+            НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО.
+            К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <div class="index-columns">
+      <section class="news">
+        <h2>НОВОСТИ</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <p>
+              НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ
+              СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+            </p>
+            <time datetime="2016-01-11">11 января</time>
+          </li>
+          <li class="news-item">
+            <p>
+              В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ
+              МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+            </p>
+            <time datetime="2016-01-19">18 января</time>
+          </li>
+        </ul>
+        <a class="button" href="#">ВСЕ НОВОСТИ</a>
+      </section>
+
+      <section class="gallery">
+        <h2>ФОТОГАЛЕРЕЯ</h2>
+        <div class="gallery-container">
+          <figure class="gallery-content">
+            <a href="#"><img src="app/img/main-page.jpg" alt="Интерьер" width="286" height="164" /></a>
+          </figure>
+          <button class="button gallery-button gallery-button-back" type="button">
+            НАЗАД
+          </button>
+          <button class="button gallery-button gallery-button-next" type="button">
+            ВПЕРЕД
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <div class="index-columns">
+      <section class="contacts">
+        <h2>КОНТАКТНАЯ ИНОРМАЦИЯ</h2>
+        <P>БАРБЕРШОП «БОРОДИНСКИЙ»<br />
+          АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br />ТЕЛЕФОН: +7
+          (495) 666-02-66</P>
+        <P>ВРЕМЯ РАБОТЫ: <br />
+          ПН—ПТ: С 10:00 ДО 22:00<br />
+          СБ—ВС: С 10:00 ДО 19:00
+        </P>
+        <a class="button" href="map.html">КАК ПРОЕХАТЬ</a>
+        <a class="button" href="contacts.html">ОБРАТНАЯ СВЯЗЬ</a>
+      </section>
+      <section class="appointment">
+        <h2>ЗАПИСАТЬСЯ</h2>
+        <p class="appointment-info">
+          УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ
+          БРОНИ
+        </p>
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="appointment-item">
+            <label for="appointment-date">ДАТА</label>
+            <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2017" />
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-time">ВРЕМЯ</label>
+            <input id="appointment-time" type="text" name="time" value="" placeholder="10:00" />
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-name">ВАШЕ ИМЯ</label>
+            <input id="appointment-name" type="text" name="name" value="" placeholder="Борода" />
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-phone">ТЕЛЕФОН</label>
+            <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+7 123 456-78-90" />
+          </p>
+          <button class="button" type="submit">ОТПРАВИТЬ</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p class="footer-contacts">
+        Барбершоп «Бородинский»<br />
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br />
+        <a class="Hfu-js" href="map.html">Как нас найти?</a><br />
+        Телефон: +7 (812) 666-02-66
+      </p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <h2 class="visually-hidden">Социальные сети</h2>
+        <ul>
+          <li>
+            <a class="social-button" href="#" aria-label="Вконтакте">
+              <img src="app/img/vk.svg" width="27" height="15">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#" aria-label="Фейсбук">
+              <img src="app/img/facebook.svg" width="20" height="20">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#" aria-label="Инстраграм">
+              <img src="app/img/instagram.svg" width="20" height="20">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано:</b>
+        <a class="button" href="http://htmlacade.ru">HTML Academy</a>
+      </p>
+    </div>
+  </footer>
+
+  <section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <P class="modal-login_text">Введите свой логин и пароль</P>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <input aria-label="Логин" class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+      </p>
+      <p>
+        <input aria-label="Пароль" class="login-icon-password" id="user-password" type="password" name="password"
+          placeholder="Пароль">
+      </p>
+      <p class="login-password-info">
+        <label class="login-checkbox" for="lpi-checkbox">запомните меня
+          <input class="visually-hidden" id="lpi-checkbox" type="checkbox" name="remember" checked>
+          <span class="checkbox-indicator"></span>
+        </label>
+        <a class="restore" href="#">Я забыл пароль!</a>
+      </p>
+      <button class="button" type="submit">Войти</button>
+    </form>
+    <button class="modal-close" type="button" aria-label="Закрыть"></button>
+  </section>
+
+  <section class="modal modal-map">
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.1998143444616!2d20.950442215891588!3d52.20341626739473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471933554fcb36a5%3A0x5d726b966baa6cc3!2sDrawska+10B%2C+02-001+Warszawa!5e0!3m2!1sru!2spl!4v1558210434623!5m2!1sru!2spl" aria-label="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург" width="780" height="580" frameborder="0" style="border:8px solid white" allowfullscreen></iframe>
+    <button class="modal-close" type="button" aria-label="закрыть "></button>
+  </section>
+
+  <script async src="app/js/modal-login.js"></script>
+  <script async src="app/js/modal-map.js"></script>
+</body>
+
+</html>
