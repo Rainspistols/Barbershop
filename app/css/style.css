@@ -528,10 +528,21 @@ input[type="radio"].visually-hidden {
 }
 
 @keyframes bounce {
-  0% {transform: translateY(-2000px);}
-  70% {transform: translateY(30px);}
-  90% {transform: translateY(-10px);}
-  100% {transform: translateY(0px);}
+  0% {
+    transform: translateY(-2000px);
+  }
+
+  70% {
+    transform: translateY(30px);
+  }
+
+  90% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .js_modal-show {
@@ -542,9 +553,26 @@ input[type="radio"].visually-hidden {
 }
 
 @keyframes shake {
-  0%, 100% {transform: translateY(0px);}
-  10%, 30%, 50%, 70%, 90% {transform: translatex(10px);}
-  20%, 40%, 60%, 80% {transform: translatex(-10px);}
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translatex(10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translatex(-10px);
+  }
 }
 
 .js_modal-error {
